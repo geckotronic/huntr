@@ -1,4 +1,4 @@
-# hunt-r
+# httpstat
 
 ![screenshot](screenshot.png)
 

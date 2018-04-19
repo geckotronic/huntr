@@ -4,7 +4,7 @@
 from setuptools import setup
 
 
-package_name = 'hunt-r'
+package_name = 'httpstat'
 filename = package_name + '.py'
 
 
@@ -28,16 +28,16 @@ def get_long_description():
 setup(
     name=package_name,
     version=get_version(),
-    author='lantern',
-    author_email='info@lantern.tech',
-    description='Lantern Technologies Hunt-R app for Machine Utilization Monitoring',
-    url='https://github.com/geckotronic/huntr',
+    author='reorx',
+    author_email='novoreorx@gmail.com',
+    description='curl statistics made simple',
+    url='https://github.com/reorx/httpstat',
     long_description=get_long_description(),
     py_modules=[package_name],
     entry_points={
         'console_scripts': [
-            'huntr = huntr:main'
+            'httpstat = httpstat:main'
         ]
     },
-    license='License :: ?',
+    license='License :: OSI Approved :: MIT License',
 )
